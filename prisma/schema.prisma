@@ -6,10 +6,8 @@ generator client {
 }
 
 datasource db {
-  provider          = "sqlserver"
-  // url      = "file:./dev.db"
-  url               = env("DATABASE_URL") // Change to "file:./dev.db" with sqlite
-  shadowDatabaseUrl = env("SHADOW_DATABASE_URL") // Remove with sqlite
+  provider = "sqlite"
+  url      = env("DATABASE_URL") // Example for CI: DATABASE_URL=file:./test.db
 }
 
 model Joke {
