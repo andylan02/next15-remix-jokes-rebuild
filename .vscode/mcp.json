@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "code-review-graph": {
+      "command": "D:\\Program\\Python314\\python.exe",
+      "args": [
+        "-m",
+        "code_review_graph",
+        "serve"
+      ],
+      "cwd": "D:\\Andy\\github\\next15-remix-jokes-rebuild",
+      "type": "stdio"
+    }
+  }
+}
